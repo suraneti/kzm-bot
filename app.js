@@ -4,12 +4,13 @@ const fs = require('fs')
 const ceilingPrice = 3000                       // Ceiling price
 const floorPrice = 2900                         // Floor price
 const gap = (ceilingPrice - floorPrice) / 10    // Gap price
+const startBudget = 50000                       // Start budget
 
 const buyHistory = []                           // Buy history 
 const sellHistory = []                          // Sell history
 
 var initData = false                            // For init data first time
-var budget = 500000                             // Budget
+var budget = startBudget                        // Budget
 var buyStack = 0                                // Limit of buy times not more than 10 times
 var lastRate = 0                                // Last rate of buy or sell action
 var bag = []                                    // Bag that store item prepared for selling
@@ -173,13 +174,13 @@ function notify() {
     console.log(chalk.magenta('SELL OUT HISTORY'))
     console.table(sellHistory)
 
-    const profit = 100 / (500000 / (budget - 500000))
+    const profit = 100 / (500000 / (budget - startBudget))
     console.log(chalk.magenta('PROFIT: ', profit + '%'))
 
     setSell.forEach(element => {
         budget += element['sell_rate'] * gap
     })
-    const bestProfit = 100 / (500000 / (budget - 500000))
+    const bestProfit = 100 / (500000 / (budget - startBudget))
     console.log(chalk.cyan('BEST PROFIT: ', bestProfit + '%', '(IF SELL ALL IN STOCK)'))
 }
 
