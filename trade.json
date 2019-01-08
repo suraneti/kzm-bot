@@ -1,0 +1,103 @@
+{
+    "timestamp": "2019-01-07 17:43:10",
+    "bag_item": [],
+    "buy_out": [
+        {
+            "buy_rate": 150.17,
+            "sell_rate": 150.26999999999998,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.26999999999998,
+            "sell_rate": 150.36999999999998,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.36999999999998,
+            "sell_rate": 150.46999999999997,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.47,
+            "sell_rate": 150.57,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.57,
+            "sell_rate": 150.67,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.67,
+            "sell_rate": 150.76999999999998,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.13,
+            "sell_rate": 150.23,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.29,
+            "sell_rate": 150.39,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.47,
+            "sell_rate": 150.57,
+            "unit": 10
+        }
+    ],
+    "sell_out": [
+        {
+            "buy_rate": 150.17,
+            "sell_rate": 150.26999999999998,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.26999999999998,
+            "sell_rate": 150.36999999999998,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.36999999999998,
+            "sell_rate": 150.46999999999997,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.47,
+            "sell_rate": 150.57,
+            "unit": 10
+        }
+    ],
+    "current_sell": [
+        {
+            "buy_rate": 150.57,
+            "sell_rate": 150.67,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.67,
+            "sell_rate": 150.76999999999998,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.13,
+            "sell_rate": 150.23,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.29,
+            "sell_rate": 150.39,
+            "unit": 10
+        },
+        {
+            "buy_rate": 150.47,
+            "sell_rate": 150.57,
+            "unit": 10
+        }
+    ],
+    "profit": -75.165,
+    "budget": 2483.5
+}.5
+}
